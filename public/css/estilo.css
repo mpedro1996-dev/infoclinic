@@ -1,0 +1,31 @@
+#minimizar,
+#mensagem-erro,
+#mensagem-sucesso,
+#mensagem-procurando,
+#mensagem-erro-clinica,
+#mensagem-sucesso-clinica,
+#mensagem-procurando-clinica{display: none;}
+#erro,#sucesso,#procurando,#erro-clinica,#sucesso-clinica,#procurando-clinica{
+    padding:7px;
+    border-radius: 12px;
+}
+#botao-permitir-administrador{background-color: #516e8e!important;border-color: #516e8e!important;}
+#botao-permitir-administrador:hover, #botao-permitir-administrador:focus{color: #fff;background-color: #8ec4ff!important;}
+#botao-permitir-clinica{background-color: #00f!important;border-color: #00f!important;}
+#botao-permitir-clinica:hover,#botao-permitir-clinica:focus{color: #fff;background-color: #07f!important;}
+#botao-permitir-atendente{background-color: #666!important;border-color: #666!important;}
+#botao-permitir-atendente:hover,#botao-permitir-atendente:focus{color: #fff;background-color: #bbb!important;}
+#botao-permitir-medico{background-color: #040!important;border-color: #040!important;}
+#botao-permitir-medico:hover,#botao-permitir-medico:focus{color: #fff;background-color: #0a0!important;}
+#tabela-todos,#tabela-paciente-encontrado,#atribuicao{display:none;}
+
+
+#body-credenciais,#body-empresariais,#body-trabalho,#body-endereco{display: none;}
+
+@media (min-width: 576px) {
+    #footer-home{
+        padding: 12px 10px!important;
+    }
+
+}
+
